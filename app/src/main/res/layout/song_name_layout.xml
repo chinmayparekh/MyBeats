@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="false"
+    android:background="#00b4d8"
+    android:fadingEdge="none"
+    android:orientation="vertical"
+    android:theme="@style/CardView.Dark">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fadingEdge="vertical|none"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#48cae4"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/song_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/music_icon" />
+
+
+            <TextView
+                android:id="@+id/SongName"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Song Name"
+                android:textColor="#1d3557"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

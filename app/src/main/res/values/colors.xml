@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#c1c8e4</color>
+    <color name="purple_700">#c1c8e4</color>
+    <color name="teal_200">#7EB8F3</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorGradientStart">#16BFFD</color>
+    <color name="colorGradientCenter">#5680e9</color>
+    <color name="colorGradientEnd">#CB3066</color>
+    <color name="av_dark_purple">#2f0743</color>
+
+</resources>
