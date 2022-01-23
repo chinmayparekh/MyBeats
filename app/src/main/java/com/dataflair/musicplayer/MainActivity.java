@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onPermissionsChecked(MultiplePermissionsReport multiplePermissionsReport) {
                         displaySong();
+
                     }
 
                     @Override
