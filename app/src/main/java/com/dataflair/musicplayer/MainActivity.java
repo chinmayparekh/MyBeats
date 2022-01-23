@@ -34,6 +34,8 @@ import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.List;
 
+import maes.tech.intentanim.CustomIntent;
+
 public class MainActivity extends AppCompatActivity {
 
 
@@ -114,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("songname", songName);
                 intent.putExtra("pos", i);
                 startActivity(intent);
-
+                CustomIntent.customType(MainActivity.this,"left-to-right");
             }
         });
 
